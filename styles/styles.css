@@ -1,0 +1,305 @@
+body header {
+  background-color: #74C69D;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+body header .navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 1175px;
+  margin: auto;
+  padding-top: 35px;
+}
+body header .navigation .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .navigation .navigation-list li {
+  padding: 0 15px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+  color: #ffffff;
+  cursor: pointer;
+}
+body header .header-main {
+  display: flex;
+  justify-content: space-between;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+body header .header-main .group1 {
+  margin-top: 40px;
+}
+body header .header-main .group1 h3 {
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 125%;
+  font-weight: 700;
+}
+body header .header-main .group1 h1 {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 125%;
+}
+body header .header-main .group1 p {
+  margin-top: 15px;
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  line-height: 125%;
+  font-weight: 400;
+}
+body header .header-main .group1 button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: 8px;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body header .header-main .group1 button:hover {
+  opacity: 0.5;
+  color: #74C69D;
+}
+body .section1 {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+}
+body .section1 h3 {
+  color: #74C69D;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+}
+body .section1 h1 {
+  margin-top: 16px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 125%;
+}
+body .section1 .logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0px;
+}
+body .section1 button {
+  border-radius: 5px;
+  background-color: #212529;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 125%;
+  padding: 10px 20px;
+  border: none;
+}
+body .section2 {
+  display: flex;
+  flex-direction: wrap;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+body .section2 .section2-heading h1 {
+  margin-top: 88px;
+  margin-left: 110px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  color: #212529;
+}
+body .section2 .section2-heading p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  color: rgba(33, 37, 41, 0.5);
+  margin-top: 16px;
+  margin-left: 110px;
+}
+body .section2 .section2-heading button {
+  margin-top: 16px;
+  margin-left: 110px;
+  border-radius: 5px;
+  background-color: #212529;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 125%;
+  padding: 10px 20px;
+  border: none;
+}
+body .section3 {
+  display: flex;
+  flex-direction: wrap;
+  margin-top: 75px;
+  width: 1180px;
+  margin: 0 auto;
+}
+body .section3 .section3-heading h1 {
+  margin-top: 155px;
+  margin-right: 110px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  color: #212529;
+}
+body .section3 .section3-heading p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  color: rgba(33, 37, 41, 0.5);
+  margin-top: 16px;
+  margin-right: 110px;
+}
+body .section3 .section3-heading button {
+  margin-top: 16px;
+  margin-right: 110px;
+  border-radius: 5px;
+  background-color: #212529;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 125%;
+  padding: 10px 20px;
+  border: none;
+}
+body .section4 {
+  display: flex;
+  flex-direction: column;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+body .section4 .section4-heading {
+  text-align: center;
+  align-items: center;
+}
+body .section4 .section4-heading h4 {
+  color: #74C69D;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+}
+body .section4 .section4-heading h2 {
+  margin-top: 16px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 125%;
+  color: #212529;
+}
+body .section4 .section4-heading p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  color: #212529;
+  margin-top: 16px;
+}
+body .section4 .section4-team {
+  display: flex;
+  flex-direction: wrap;
+  gap: 50px;
+  margin-top: 45px;
+}
+body .section4 .section4-team .team1 {
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 20px 35px;
+}
+body .section4 .section4-team .team1 img {
+  border-radius: 80%;
+  border: 1px solid;
+}
+body .section4 .section4-team .team1 h1 {
+  margin-top: 19px;
+  font-family: "Crimson Text";
+  color: #212529;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+}
+body .section4 .section4-team .team1 h4 {
+  margin-top: 17px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+}
+body .section4 button {
+  border-radius: 5px;
+  background-color: #212529;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 125%;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 45px;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #74C69D;
+  padding: 50px 130px;
+  margin-top: 50px;
+}
+body footer .footer-logos img {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+body footer p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */
